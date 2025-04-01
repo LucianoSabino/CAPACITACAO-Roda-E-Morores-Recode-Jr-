@@ -13,4 +13,8 @@ router.post(
   UsuarioController.createUp
 );
 
+<<<<<<< HEAD:src/server/router/router.js
 export { router };
+=======
+export {router} ;
+>>>>>>> 7cdf7a2ef51c3ff81549d3c1718b02b97f9e1877:src/server/router/index.js
