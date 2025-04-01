@@ -1,0 +1,20 @@
+
+@baseUrl = http://localhost:8080
+# Rota Base
+GET  {{baseUrl}}/
+
+### Lista todos os Usuario
+POST {{baseUrl}}/usuario
+Content-Type: application/json
+
+{
+  "nome": "Luciano",
+  "cpf": "8888888",
+  "telefone": "77777777",
+  "email": "Luciano@gmail.com",
+  "cidade": "Laje",
+  "estado": "BA",
+  "pais": "Russia",
+  "bairro": "hfhfhfh",
+  "endereco": "jdjdjkdjkdjdjkd"
+}

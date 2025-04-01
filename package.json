@@ -1,5 +1,14 @@
 {
-  "name": "capacitacao",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.14",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http-status-codes": "^2.3.0",
+    "nodemon": "^3.1.9",
+    "yup": "^1.6.1"
+  },
+  "name": "test",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -9,14 +18,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.1",
-    "@types/node": "^22.13.14",
-    "nodemon": "^3.1.9"
-  }
+  "description": ""
 }
