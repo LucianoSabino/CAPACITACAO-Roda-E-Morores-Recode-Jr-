@@ -5,7 +5,13 @@
 
 ---
 
-## 📦 Como rodar o projeto
+## 🎥 Video da Capacitação
+
+Confira o vídeo da primeira (31/03/2025) parte no YouTube: [Clique aqui para assistir](https://youtu.be/ev23-MwNPpQ?si=X-kh7zBnD5EPfKwm)
+
+---
+
+## 🛆 Como rodar o projeto
 
 1. Certifique-se de ter o **Node.js** instalado (versão recomendada: LTS).  
    - Para verificar: `node -v && npm -v`  
@@ -35,7 +41,7 @@
 
 ---
 
-## 📡 Rotas da API
+## 💻 Rotas da API
 
 ### 🔹 **Endpoints**
 
@@ -100,5 +106,4 @@ O projeto utiliza as seguintes tecnologias:
 
 ---
 
-## 🚧 Em construção... 🚧
-
+## 🚧 Em execurção 2025... 🚧
