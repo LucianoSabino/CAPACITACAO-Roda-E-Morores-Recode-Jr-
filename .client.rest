@@ -1,0 +1,12 @@
+@baseUrl = http://localhost:8080
+
+###
+GET {{baseUrl}}/
+
+###
+POST {{baseUrl}}/usuario
+Content-Type: application/json
+
+{
+
+}
