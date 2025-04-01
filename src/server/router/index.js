@@ -13,3 +13,5 @@ router.post(
   UsuarioController.createValidation,
   UsuarioController.createUp
 );
+
+export {router} ;
