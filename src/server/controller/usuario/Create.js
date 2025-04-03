@@ -1,6 +1,7 @@
 import { StatusCodes } from "http-status-codes";
 import * as yup from "yup";
 import { validation } from "../../shared/middlewares/Validation.js";
+import { UsuarioProvider } from "../../providers/usuario/index.js";
 
 export const createValidation = validation((getSchema) => ({
   body: getSchema(
@@ -19,7 +20,15 @@ export const createValidation = validation((getSchema) => ({
 }));
 
 export const createUp = async (req, res) => {
-  const result = req.body;
+  const result = await UsuarioProvider.create(req.body);
   console.log(result);
+  if (result instanceof Error) {
+    res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
+      errors: {
+        default: result.message,
+      },
+    });
+    return;
+  }
   res.status(StatusCodes.CREATED).json(result);
 };

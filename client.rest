@@ -1,9 +1,11 @@
 
 @baseUrl = http://localhost:8080
+# @baseUrl = https://deploy-rodas-e-motores.onrender.com
+
 # Rota Base
 GET  {{baseUrl}}/
 
-### Lista todos os Usuario
+### Usuario
 POST {{baseUrl}}/usuario
 Content-Type: application/json
 
@@ -17,4 +19,12 @@ Content-Type: application/json
   "pais": "Russia",
   "bairro": "hfhfhfh",
   "endereco": "jdjdjkdjkdjdjkd"
+}
+
+###
+POST {{baseUrl}}/singUp
+Content-Type: application/json
+
+{
+  
 }
