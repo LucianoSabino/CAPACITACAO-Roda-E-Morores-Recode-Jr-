@@ -5,9 +5,23 @@
 
 ---
 
-## 🎥 Video da Capacitação
+# Progresso do Projeto
 
-Confira o vídeo da primeira (31/03/2025) parte no YouTube: [Clique aqui para assistir](https://youtu.be/ev23-MwNPpQ?si=X-kh7zBnD5EPfKwm)
+## Primeiro Dia  
+
+Iniciamos instalando as bibliotecas. Em seguida, fizemos a validação dos dados com **YUP** e criamos a primeira rota. No entanto, encerramos o dia com um erro, que ocorreu devido a uma importação incorreta de um arquivo.  
+
+### 🎥 Video da Capacitação
+
+Confira o vídeo da primeira da capacitação (31/03/2025) parte no YouTube: [Clique aqui para assistir](https://youtu.be/ev23-MwNPpQ?si=X-kh7zBnD5EPfKwm)
+
+## Segundo Dia  
+
+Nesta segunda parte, corrigimos o erro, e depois configuramos o banco de dados, realizamos as migrações e cadastramos o primeiro usuário. Termimando com progresso tudo funciomando.
+
+### 🎥 Video da Capacitação
+
+Confira o vídeo da segunda parte da cpacitação (02/04/2025) no YouTube: [Clique aqui para assistir](https://youtu.be/ev23-MwNPpQ?si=X-kh7zBnD5EPfKwm) 
 
 ---
 
