@@ -26,5 +26,25 @@ POST {{baseUrl}}/singUp
 Content-Type: application/json
 
 {
-  
+  "usuarioId": "1",
+  "usuario": "lucianoNeto",
+  "senha": "123"
+}
+
+###
+POST {{baseUrl}}/login
+Content-Type: application/json
+
+{
+  "usuario": "lucianoNeto",
+  "senha": "123"
+}
+
+###
+GET  {{baseUrl}}/buscar?id=1&nome=lucianoNeto
+Content-Type: application/json
+
+{
+  "usuario": "lucianoNeto",
+  "senha": "123"
 }
